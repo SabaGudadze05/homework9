@@ -1,0 +1,41 @@
+/* 480px- 320px */
+@media (max-width: 376px) {
+  /* header */
+  header {
+    padding-inline: 14px;
+  }
+  /* section1 */
+  .section1 {
+    padding: 0 14px;
+  }
+  .section1_header {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .section1_header_p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  /* section2 */
+  .section2 {
+    padding: 40px 38px;
+  }
+  .section2_card_section {
+    flex-wrap: wrap;
+  }
+  .section2_card_article {
+    width: min(100%, 347px);
+    height: 310px;
+  }
+  /* section3 */
+  .section3 {
+    padding: 32px 14px;
+  }
+  .section3_header {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .section2_card_article {
+    width: min(100%, 347px);
+  }
+}
