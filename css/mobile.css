@@ -1,5 +1,5 @@
 /* 480px- 320px */
-@media (max-width: 376px) {
+@media (max-width: 396px) {
   /* header */
   header {
     padding-inline: 14px;
@@ -19,13 +19,11 @@
   /* section2 */
   .section2 {
     padding: 40px 38px;
-  }
-  .section2_card_section {
-    flex-wrap: wrap;
+    /* overflow: hidden; */
   }
   .section2_card_article {
-    width: min(100%, 347px);
-    height: 310px;
+    flex: 1 0 200px;
+
   }
   /* section3 */
   .section3 {
@@ -35,7 +33,7 @@
     font-size: 24px;
     line-height: 36px;
   }
-  .section2_card_article {
+  /* .section2_card_article {
     width: min(100%, 347px);
-  }
+  } */
 }

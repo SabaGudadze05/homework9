@@ -13,8 +13,11 @@
     .section2{
         padding: 48px 57px;
     }
+    .section2_card_section{
+        overflow-x: scroll;
+    }
     .section2_card_article{
-        width: min(100%, 382px);
+        flex: 1 0 382px;
     }
     /* section3 */
     .section3{
@@ -42,12 +45,6 @@
     /* section2 */
     .section2{
         padding: 40px 46px;
-    }
-    .section2_card_article{
-        width: min(100%, 361px);
-    }
-    .section2_card_article:nth-child(3){
-        display: none;
     }
     /* section3 */
     .section3{

@@ -2,6 +2,9 @@
 
 @media (max-width: 711px) {
   /* header */
+  header{
+    padding-inline: 38px;
+  }
   .burger {
     display: block;
     font-size: 32px;
@@ -19,8 +22,8 @@
     padding: 40px 38px;
   }
   .section2_card_article {
-    width: min(100%, 307px);
-    height: 334px;
+    /* width: min(100%, 307px); */
+    /* height: 334px; */
   }
   /* section3 */
   .section3 {
